@@ -1,0 +1,27 @@
+body{
+    background-color: #888888;
+}
+.border{
+    background: #C8C8C8;
+    height: 600px;
+    width: 800px;
+    display: flex;
+    border-radius: 10%;
+    margin-left: 18%;
+    margin-top: 5%; 
+
+    
+}
+.img{
+    
+    /* height: 1px; */
+    height: 10px;
+    flex: 1;
+    /* margin-top: -5%; */
+    display: flex;
+justify-content: center; /* align horizontal */
+align-items: center;
+
+    
+    
+}
