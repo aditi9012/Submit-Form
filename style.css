@@ -1,18 +1,64 @@
 body{
-    background-color: #888888;
+    background-color: #c9917b;
+}
+.head{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36px;
+    text-shadow:2px 2px orange;
+    text-decoration: rgb(3, 3, 3);
+    text-align: center;
+    f
+}
+form{
+    border-radius: 15%;
+    border: 2px solid rgb(3, 3, 3);
+    margin-left: 20%;
+    margin-right: 20%;
+    box-shadow: cornsilk;
 }
 .id{
     display: flex;
-    font-size: 24px;
+    font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     justify-content:center;
    
    }
    .id1{
-    font-size: 24px;
+    font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     justify-content:center;
     text-align: center;
     display: inline-flexbox;
 
    }
+
+   .id3{
+    display: flex;
+    font-size: 26px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content:center;
+    align-content: center;
+    font-weight: bolder;
+   
+   }
+   form ul li label{
+    float: left;
+    clear: left;
+    width: 120px;
+    text-align: right;
+    margin-right: 10px;
+    /* font-family:Verdana, Arial, Helvetica, sans-serif; */
+    font-size:20px;
+    }
+    .id3 input{
+        font-weight: bold;
+        height: 50px;
+        width: 100px;
+        font-size: 20px;
+        scrollbar-highlight-color: royalblue;
+        background-color: sandybrown;
+        
+    }
+    :hover{
+        color: rgb(134, 67, 5);
+    }
