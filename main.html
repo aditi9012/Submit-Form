@@ -5,13 +5,73 @@
             Submit-Form
         </title>
         <link href="style.css" rel="stylesheet">
+        <script src="/script.js"></script>
+        <script src="countries.js"></script>
     </head>
         <body>
-            <div class="border">
-                <div class="img">
-            <img src="./avatar.png">
-            </div>
-            </div>
+           <form name="submit" onsubmit="return formValidation();">
+        
+            <ul>
+                <li class="id">
+                <label for="FirstName">First Name :</label>
+                <input type="text" name="FirstName"/>
+                <label for="LastName">Last Name:</label>
+                <input type="text" name="LastName"/>
+                </li>
+                <br>
+                <li class="id">
+                <label for="Email">Email :</label>
+                <input type="email" name="Email"/>
+                </li>
+                <br>
+                <li class="id">
+                    <label for="Address">Address:</label>
+                    <input type="text" name="Address"/>
+                    </li>
+                    <br>
+                    <li class="id">
+                        <label for="PinCode">Pin Code:</label>
+                        <input type="text" name="PinCode"/>
+                        </li>
+                        <br>
+                    <li class="id">
+                        <label for="Mobile">Mobile:</label>
+                        <input type="text" name="Mobile"/>
+                        </li>
+                        <br>
+                        <li class="id">
+                            <label for="DOB">DOB:</label>
+                            <input type="date" name="DOB"/>
+                        </li>
+                      <br>
+         
+        <li class="id">
+        <label for="Gender">Gender:</label>
+        <input type="radio" name="Gender" value="male" checked> Male<br>
+        <input type="radio" name="Gender" value="female"> Female<br>
+        <input type="radio" name="Gender" value="other"> Others
+      
+        </li>
+        <br>
+       
+        <div class="id1">
+            <script type= "text/javascript" src = "countries.js"></script>
+            Select Country :   <select id="country" name ="country"></select> </br></br>
+            Select State: <select name ="state" id ="state"></select>  </br> </br> 
+           
+        </div>
+        
+        <script language="javascript">
+            populateCountries("country", "state"); // first parameter is id of country drop-down and second parameter is id of state drop-down
+            populateCountries("country2");
+            populateCountries("country2");
+        </script>
+        
+
+                
+            </ul>
+             
+           </form>
         
         </body>
 </html>
