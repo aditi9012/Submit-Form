@@ -7,14 +7,15 @@ body{
     text-shadow:2px 2px orange;
     text-decoration: rgb(3, 3, 3);
     text-align: center;
-    f
+    
 }
 form{
-    border-radius: 15%;
+    border-radius: 12%;
     border: 2px solid rgb(3, 3, 3);
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 22%;
+    margin-right: 22%;
     box-shadow: cornsilk;
+    background-color:rgb(233, 196, 141);
 }
 .id{
     display: flex;
@@ -52,7 +53,7 @@ form{
     }
     .id3 input{
         font-weight: bold;
-        height: 50px;
+        height: 40px;
         width: 100px;
         font-size: 20px;
         scrollbar-highlight-color: royalblue;
@@ -60,5 +61,9 @@ form{
         
     }
     :hover{
-        color: rgb(134, 67, 5);
+        color: rgb(83, 43, 5);
     }
+    [type="submit"] {
+        clear: left;
+       
+        }
